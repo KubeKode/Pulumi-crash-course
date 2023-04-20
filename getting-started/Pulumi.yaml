@@ -1,0 +1,6 @@
+name: getting-started
+runtime:
+  name: nodejs
+  options:
+    typescript: false
+description: A minimal Google Cloud JavaScript Pulumi program
