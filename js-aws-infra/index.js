@@ -4,6 +4,13 @@ const aws = require("@pulumi/aws");
 const awsx = require("@pulumi/awsx");
 
 // Create an AWS resource (S3 Bucket)
+
+
+
+
+
+
+
 const bucket = new aws.s3.Bucket("my-bucket");
 
 // Create an EC2 instance

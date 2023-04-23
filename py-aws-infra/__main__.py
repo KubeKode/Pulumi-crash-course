@@ -10,5 +10,11 @@ bucket = s3.Bucket('my-bucket')
 instance = ec2.Instance("my-instance",instance_type= "t2.micro", ami="ami-007855ac798b5175e",tags={'Name': "web-server-new"} 
 )
 
+
+
+
 # Export the name of the bucket
 pulumi.export('bucket_name', bucket.id)
+
+
+
